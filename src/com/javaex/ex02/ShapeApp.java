@@ -29,6 +29,12 @@ public class ShapeApp {
 		// Shape의 형태를 띄고 있으나 자식인 Triangle에서 정의된 triangle(4)가 override할 것임
 		// 한가지 놓친 점 : override까지는 예상했는데 shape2도 나온다는 걸 간과함
 		// 어찌되었든 Shape에서 String값에 맞는 생성자를 찾을 것이고, 이후 자식 클래스에서 정의된 생성자를 찾아 override하는 것
+		
+		// 경고삭제용
+		System.out.println(s1);
+		System.out.println(t1);
+		System.out.println(t2);
+		System.out.println(t3);
 	}
 
 }
